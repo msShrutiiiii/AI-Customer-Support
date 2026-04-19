@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # ── Groq API via OpenAI-compatible client (free!) ──────────────────────────────
-GROQ_API_KEY = "gsk_9H6ChSK71cAqXT0wmjWAWGdyb3FYzQeZ4Q1pOOoG6Cds20u8gdq"
+GROQ_API_KEY = "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"
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"
 
 # ── Page config ────────────────────────────────────────────────────────────────
