@@ -42,17 +42,9 @@ pip install -r requirements.txt
 
 ### Step 6 — Add your Groq API key
 
-1. Copy the example env file:
-   ```bash
-   # Windows
-   copy .env.example .env
-
-   # Mac / Linux
-   cp .env.example .env
-   ```
-2. Open `.env` in VS Code
-3. Replace `your_groq_api_key_here` with your actual key
-4. Get a free key at: **https://console.groq.com**
+1. Open `.env` in VS Code
+2. Replace `your_groq_api_key_here` with your actual key
+3. Get a free key at: **https://console.groq.com**
 
 ### Step 7 — Run the app
 ```bash
@@ -68,8 +60,7 @@ The app will open automatically at **http://localhost:8501** in your browser.
 ```
 ai_support_bot/
 ├── app.py              ← Main Streamlit application
-├── requirements.txt    ← Python dependencies
-├── .env.example        ← API key template (safe to share)
+├── requirements.txt    ← Python dependencies        
 ├── .env                ← Your actual API key (never share/commit this)
 ├── .gitignore          ← Prevents .env from being pushed to GitHub
 └── README.md           ← This file
@@ -110,4 +101,4 @@ SYSTEM_PROMPT = """You are a helpful customer support agent for [YOUR COMPANY].
 
 ---
 
-Built by **Shruti Umakant Rede** · Jaihind Polytechnic, Pune
+Built by **Shruti Umakant Rede** , Pune
